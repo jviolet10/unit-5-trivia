@@ -188,23 +188,23 @@ resetTime();
 function displayImage() {
     if(count === 0) {
         $("#image-holder").show();
-        $("#image-holder").html('<img src="assets/images/rv.jpg" width="1000px" class="center">');
+        $("#image-holder").html('<img src="Assets/Images/rv.jpg" width="1000px" class="center">');
     }
     else if(count === 1) {
         $("#image-holder").show();
-        $("#image-holder").html('<img src="assets/images/et.jpg" width="1000px" class="center">');
+        $("#image-holder").html('<img src="Assets/Images/et.jpg" width="1000px" class="center">');
     }
     else if(count === 2) {
         $("#image-holder").show();
-        $("#image-holder").html('<img src="assets/images/cairoli.jpg" width="1000px" class="center">');
+        $("#image-holder").html('<img src="Assets/Images/cairoli.jpg" width="1000px" class="center">');
     }
     else if(count === 3) {
         $("#image-holder").show();
-        $("#image-holder").html('<img src="assets/images/ktm.jpg" width="1000px" class="center">');
+        $("#image-holder").html('<img src="Assets/Images/ktm.jpg" width="1000px" class="center">');
     }
     else if(count === 4) {
         $("#image-holder").show();
-        $("#image-holder").html('<img src="assets/images/rc.jpg" width="1000px" class="center">');
+        $("#image-holder").html('<img src="Assets/Images/rc.jpg" width="1000px" class="center">');
     }
 }
 
